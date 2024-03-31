@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: lightblue;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <h1 for="name">What is your name?</h1>
+        <input type="text" id="name" name="name">
+    </div>
+
+    <div>
+        <h2 for="salary">What is your desired annual salary?</h2>
+        <input type="number" id="salary" name="salary">
+    </div>
+
+    <div>
+        <h2>Are you a veteran?</h2>
+        <select id="veteran">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </div>
+
+    <div>
+        <h2>What are the names of three friends?</h2>
+        <input type="text" id="friends" name="friends" placeholder="ex. Mike, Linda, ...">
+        <button id="friendButton">Add Friends</button>
+    </div>
+
+    <div>
+        <h2>What are the desired salaries for your three friends?</h2>
+        <select id="salaries">
+            <option value="40,000">40,000</option>
+            <option value="50,000">50,000</option>
+            <option value="60,000">60,000</option>
+        </select>
+
+    </div>
+
+    <button id="submit">Submit Info</button>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
